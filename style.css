@@ -1,0 +1,142 @@
+.grid-container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 158px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "main"
+        "footer";
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+/*MAIN*/
+main {
+    display: flex;
+    grid-area: main;
+    margin: 0 auto;
+    justify-content:center;
+    align-content: center;
+    width: 40em;
+    padding: 4em 1.5em 4em 1.5em;
+    
+}
+
+.content-container {
+    width:100%;
+}
+
+.wikipedia-image {
+    width: 560px;
+    height: 253.6px;
+}
+
+/*INPUT*/
+
+.searching-bar {
+    display: flex ;
+    width: 560px;
+    height: 45px;
+    margin-top: 30px;
+    
+}
+
+
+
+.form {
+    width: 482.8px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #a2a9b1;
+}
+
+.form:hover{
+    border: 2px solid #36c;
+}
+
+
+/*BUTTON*/ 
+
+.style {
+    background-color: #36c;
+    border: none;
+    border-radius: 0;
+    width: 77.5px;
+    
+}
+
+.search-icon {
+    background-image: url(https://www.wikipedia.de/img/wmde_search_icon.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    background-size: 25px auto;
+    background-position: center;
+}
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+    grid-area: footer;
+    background: #202520;
+    padding-top: 24px;
+    border-top: 0.8px;
+    
+}
+
+.wikimedia-image {
+    width: 233.433px;
+    height: 50px ;
+
+}
+
+.footer-container {
+    width: 100%;
+   
+}
+
+ul {
+    
+    width: 90%;
+    display: flex;
+    padding: 0;
+    margin: auto;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+    
+
+
+
+
+p {
+    color: #ffffff;
+    margin: 0;
+    padding:0;
+    margin-bottom: 8px;
+    
+}
+
+a {
+    color:#ffffff;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
